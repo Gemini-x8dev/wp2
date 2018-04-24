@@ -6,27 +6,30 @@ Author: HW
 version: 0.0.1
 */
 
-require_once dirname(__FILE__) . "/Cherad.php";
 
-class HelloWorldP {
 
-    public static function activate () {
-        register_post_type( 'book', ['public' => 'true'] );
+require_once dirname(__FILE__) . "/HwInit.php";
+require_once HwInit::HW_ENGINE;
+
+class HwPlug {
+
+    public static function plug () {
+        register_post_type( 'about', ['public' => 'true'] );
         flush_rewrite_rules();
     }
 
-    public static function deactivate () {
-        unregister_post_type( 'book' );
+    public static function unplug () {
+        unregister_post_type( 'about' );
         flush_rewrite_rules();
     }
 
-    public static function uninstall () {
+    public static function flush () {
         echo 'I am uninstalled..';
     }
 }
 
-register_activation_hook(__FILE__,['HelloWorldP','activate']);
-register_deactivation_hook(__FILE__,['HelloWorldP','deactivate']);
-register_uninstall_hook(__FILE__,['HelloWorldP','uninstall']);
+register_activation_hook(__FILE__,['HwPlug','plug']);
+register_deactivation_hook(__FILE__,['HwPlug','unplug']);
+register_uninstall_hook(__FILE__,['HwPlug','flush']);
 
-(new HW_Cherad())->init();
+(new HwEngine())->init();
