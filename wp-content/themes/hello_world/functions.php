@@ -9,5 +9,14 @@ function include_srcs () {
     wp_enqueue_script('calls',get_theme_file_uri("js/calls.js"),NULL,'0.1',true);
 }
 
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'header-menu' => __( 'Header Menu' ),
+            'extra-menu' => __( 'Extra Menu' )
+        )
+    );
+}
 
+add_action( 'init', 'register_my_menus' );
 add_action('wp_enqueue_scripts','include_srcs');
