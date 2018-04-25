@@ -6,15 +6,14 @@ Author: HW
 version: 0.0.1
 */
 
-
-
 require_once dirname(__FILE__) . "/HwInit.php";
-require_once HwInit::HW_ENGINE;
+require_once HwInit::ROOT . '/HwEngine.php';
+HwInit::includeClasses('API');
 
 class HwPlug {
 
     public static function plug () {
-        register_post_type( 'about', ['public' => 'true'] );
+        Options::addOption('about','');
         flush_rewrite_rules();
     }
 

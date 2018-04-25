@@ -3,44 +3,35 @@
  * The guy responsible for all cherad on wordpress
  * */
 
-require_once dirname(__FILE__) . "/API/Options.php";
+require_once dirname(__FILE__) . "/HwInit.php";
+
+HwInit::includeClasses('API');
+HwInit::includeClasses('ENGINE');
 
 class HwEngine {
 
-    public function init () {
-        add_filter('the_content',[$this,'addHello']);
-//        add_action('wp_loaded',[$this,'sayHello']);
-//        add_action('wp_loaded',[$this,'getOptions']);
-        add_action('admin_menu', [$this,'hw2018_options_page']);
-        add_action('admin_init', [$this,'AddStylestoAdmin']);
-    }
+    private $settings;
+    private $pages;
+    private $misc;
 
-    public function addHello ($content) {
-        return $content . "<br><small>Created by: hw</small><br>";
-    }
-
-    public function sayHello () {
-        echo '<script>alert("Hello i am loaded")</script>';
-    }
-
-    public function getOptions () {
-        return Options::getAll();
-    }
-
-    public function hw2018_options_page()
+    function __construct()
     {
-        add_menu_page(
-            'About me Footer',
-            'Hello World Simple Plugin',
-            'manage_options',
-            plugin_dir_path(__FILE__) . '/admin/hw_options.php',
-            null,
-            '',
-            20
-        );
+        $this->settings = new Settings();
+        $this->misc = new Misc();
+        $this->pages = new Page();
     }
 
-    public function AddStylestoAdmin () {
-        wp_enqueue_style('bootstrap','https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css');
+    public function init () {
+        add_filter('the_content',$this->getAction($this->misc,'addHello'));
+        add_action('admin_menu', $this->getAction($this->pages,'hw2018_options_page'));
+        add_action('admin_init', $this->getAction($this->misc,'addStylestoAdmin'));
+        add_action('init', $this->getAction($this->pages,'addCustomPostType'));
+        add_action('admin_init', $this->getAction($this->settings,'addANewSetting'));
+        add_action( 'admin_menu', $this->getAction($this->settings,'addSettingsPage'));
     }
+
+    private function getAction ($obj,$method) {
+        return [$obj,$method];
+    }
+
 }
