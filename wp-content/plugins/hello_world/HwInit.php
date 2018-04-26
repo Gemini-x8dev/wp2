@@ -7,12 +7,17 @@ class HwInit {
     const ENGINE = self::ROOT . "/Engine/";
     const ADMIN = self::ROOT . "/admin/";
 
-    public static function includeClasses ($dir,$output = false) {
+    public static function includeClasses ($dir, $class = "", $output = false) {
 
         $dir = constant("self::$dir");
 
         if (!$dir){
             return false;
+        }
+
+        if ($class) {
+            require_once $dir . $class . ".php";
+            return;
         }
 
         $apis = self::dirToArray($dir);

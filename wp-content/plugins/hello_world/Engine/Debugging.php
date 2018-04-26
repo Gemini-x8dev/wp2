@@ -12,4 +12,8 @@ class Debugging {
         print_r($data);
         exit;
     }
+
+    public static function pushToConsole ($response) {
+        echo "<script>console.log('$response')</script>";
+    }
 }
