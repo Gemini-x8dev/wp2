@@ -39,9 +39,9 @@ class Trees {
 
     public function propertiesBoxes($post)
     {
-        $value = get_post_meta($post->ID, '_wporg_meta_key', true);
+        $value = get_post_meta(19, '_trees_meta_key', true);
         ?>
-        <label for="tree_props">How is this tree?</label>
+        <label for="tree_props">How is this tree? <?= $value; ?></label>
         <select name="tree_props" id="tree_props" class="postbox">
             <option value="Cool Shade" <?php selected($value, 'Cool Shade'); ?>>Cool Shade</option>
             <option value="Green Leaves" <?php selected($value, 'Green Leaves'); ?>>Green Leaves</option>
