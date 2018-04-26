@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5edcb4-5e26-431b-b561-88d62d80734b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/hello_world/single-trees.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Debugging.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Debugging.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Misc.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Misc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Trees.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Trees.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hello_world/HwInit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hello_world/HwInit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hello_world/HwEngine.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hello_world/HwEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/hello_world/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/hello_world/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/hello_world/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/hello_world/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/hello_world/trees.php" afterPath="$PROJECT_DIR$/wp-content/themes/hello_world/trees.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+            <state relative-caret-position="264">
+              <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -47,21 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hw_options.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/admin/hw_options.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HwEngine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/HwEngine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="326">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="e#6#65#0#PHP" expanded="true" />
               </folding>
@@ -69,43 +53,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/header.php">
+      <file leaf-file-name="Misc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Misc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calls.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/js/calls.js">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            <state relative-caret-position="192">
+              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trees.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Trees.php">
+      <file leaf-file-name="single-trees.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/single-trees.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2736">
-              <caret line="114" column="62" lean-forward="true" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
-              <folding>
-                <marker date="1524743602398" expanded="true" signature="2694:3053" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="2785:3035" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="3072:3099" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="3072:3300" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="3318:3345" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="3318:3594" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="3411:3576" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="3613:3640" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="3613:4177" ph="..." />
-                <marker date="1524743602398" expanded="true" signature="3712:4159" ph="..." />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,11 +93,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Trees.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Trees.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <marker date="1524748259414" expanded="true" signature="3185:3212" ph="..." />
+                <marker date="1524748259414" expanded="true" signature="3431:3458" ph="..." />
+                <marker date="1524748259414" expanded="true" signature="3726:3753" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HwInit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/HwInit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="336">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -164,32 +161,33 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/uninstall.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hello_world/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hello_world/API/Options.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Cherad.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/HW.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/REST.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Misc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Page.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Settings.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/admin/Manager/BespokeSettings.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/API/Options.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/hello_world.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/admin/bispoke_settings.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hello_world/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Accomplishments.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hello_world/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hello_world/js/Utils.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/hello_world/js/calls.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/HwEngine.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/admin/hw_options.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/HwInit.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Debugging.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/trees.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hello_world/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/single-trees.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/trees.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Settings.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/HwEngine.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Misc.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Trees.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/hello_world/index.php" />
       </list>
     </option>
   </component>
@@ -253,14 +251,6 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="hello_world" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hello_world" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="wp" type="b2602c69:ProjectViewProjectNode" />
@@ -335,12 +325,12 @@
       <workItem from="1524479693645" duration="8058000" />
       <workItem from="1524549406502" duration="13974000" />
       <workItem from="1524636852045" duration="20360000" />
-      <workItem from="1524725226090" duration="7328000" />
+      <workItem from="1524725226090" duration="11896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51016000" />
+    <option name="totallyTimeSpent" value="55584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -377,14 +367,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/hello_world.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -397,6 +379,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -470,6 +453,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -537,14 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Misc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/admin/Manager/BespokeSettings.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/API/Options.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -592,14 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="42" column="10" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="42" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Accomplishments.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/footer.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -617,14 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -632,14 +592,6 @@
           <folding>
             <element signature="e#6#65#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,18 +603,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/js/calls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <marker date="1501116104000" expanded="true" signature="3664:3712" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -690,52 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/HwInit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/admin/hw_options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/HwEngine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#6#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/trees.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -748,22 +653,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/js/calls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/trees.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/HwInit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/HwEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Misc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/single-trees.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hello_world/Engine/Trees.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2736">
-          <caret line="114" column="62" lean-forward="true" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
+        <state relative-caret-position="302">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
-            <marker date="1524743602398" expanded="true" signature="2694:3053" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="2785:3035" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="3072:3099" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="3072:3300" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="3318:3345" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="3318:3594" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="3411:3576" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="3613:3640" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="3613:4177" ph="..." />
-            <marker date="1524743602398" expanded="true" signature="3712:4159" ph="..." />
+            <marker date="1524748259414" expanded="true" signature="3185:3212" ph="..." />
+            <marker date="1524748259414" expanded="true" signature="3431:3458" ph="..." />
+            <marker date="1524748259414" expanded="true" signature="3726:3753" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hello_world/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -15,11 +15,12 @@ while ( $loop->have_posts() ) : $loop->the_post();
             </div>
             <div class="card-body">
                 <ul class="list-unstyled mt-3 mb-4">
+                    author: <?= the_author() ?>
                     <?= the_content() ?>
                     <?php (new Trees())->printTreeProps(get_the_ID()) ?>
                     <?= the_date() ?>
                 </ul>
-                <a href="<?= get_site_url() ?>" type="button" class="btn btn-xs btn-info">Home</a>
+                <a href="<?= the_permalink() ?>" type="button" class="btn btn-xs btn-info">check tree</a>
             </div>
         </div>
     </div>

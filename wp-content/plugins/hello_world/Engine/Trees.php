@@ -24,7 +24,9 @@ class Trees {
                 'parent_item_colon' => 'Parent Trees'
             ],
             'menu_position' => 80,
-            'menu_icon' => 'dashicons-palmtree'
+            'menu_icon' => 'dashicons-palmtree',
+            'taxonomies' => ['category'],
+            'supports' => ['title', 'editor', 'excerpt', 'thumbnail']
         ]);
     }
 
@@ -138,5 +140,11 @@ class Trees {
         <?php
     }
 
-
+    public function addTreesToTheMix($query)
+    {
+        if (is_home() && $query->is_main_query()) {
+            $query->set('post_type', ['post', 'trees','about']);
+        }
+        return $query;
+    }
 }

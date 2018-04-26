@@ -24,6 +24,7 @@ class HwEngine {
     }
 
     public function init () {
+        add_filter('the_content',$this->getAction($this->misc,'truncateString'));
         add_filter('the_content',$this->getAction($this->misc,'addHello'));
         add_action('admin_menu', $this->getAction($this->pages,'hw2018_options_page'));
         add_action('admin_init', $this->getAction($this->misc,'addStylestoAdmin'));
@@ -33,6 +34,7 @@ class HwEngine {
         add_action( 'admin_menu', $this->getAction($this->settings,'addSettingsPage'));
         add_action('add_meta_boxes', $this->getAction($this->trees,'treesProperties'));
         add_action('save_post', $this->getAction($this->trees,'saveTreeProps'));
+        add_action('pre_get_posts', $this->getAction($this->trees,'addTreesToTheMix'));
     }
 
     private function getAction ($obj,$method) {

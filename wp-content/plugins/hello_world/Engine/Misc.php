@@ -8,6 +8,13 @@ class Misc {
         return $content . "<br><small>Created by: hw</small><br>";
     }
 
+    public function truncateString ($content) {
+        if (is_front_page()) {
+            return (strlen($content) > 300) ? substr($content, 0, 300) . '...' : $content;
+        }
+        return $content;
+    }
+
     public function sayHello () {
         echo '<script>alert("Hello i am loaded")</script>';
     }

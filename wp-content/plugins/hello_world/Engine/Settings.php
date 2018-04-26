@@ -30,7 +30,7 @@ class Settings {
             'wporg_settings_section',
             'Bispoke Settings',
             [$this,'wporg_settings_section_cb'],
-            'media'
+            'bespoke'
         );
 
         // register a new field in the "wporg_settings_section" section, inside the "reading" page
@@ -38,7 +38,7 @@ class Settings {
             'wporg_settings_field',
             'Dull setting',
             [$this,'wporg_settings_field_cb'],
-            'media',
+            'bespoke',
             'wporg_settings_section'
         );
     }
