@@ -5,6 +5,7 @@
             if ( have_posts() ) {
                 while (have_posts()) {
                     the_post();
+                    Misc::castVote(get_the_ID());
                     ?>
                     <div class="card-deck mb-3 text-center">
                         <div class="mb-4">

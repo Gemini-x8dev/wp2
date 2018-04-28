@@ -5,9 +5,11 @@
             if ( have_posts() ) {
                 while (have_posts()) {
                     the_post();
+                    Misc::PageViews(get_the_ID());
                     ?>
                     <div class="card-deck mb-3 text-center">
                         <div class="mb-4">
+                            <img src="<?= the_post_thumbnail_url() ?>" style="width: 30rem"/>
                             <div class="py-lg-2">
                                 <h4 class="my-0 font-weight-normal"><?= the_title() ?></h4>
                             </div>

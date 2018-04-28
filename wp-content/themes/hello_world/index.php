@@ -9,7 +9,7 @@
             $rows_counter++;
             ?>
             <div class="card col-md-3 m-3">
-                <?= the_post_thumbnail('medium','hello') ?>
+                <img class="card-img-top" src="<?= the_post_thumbnail_url() ?>">
                 <div class="card-body">
                     <h5 class="card-title"><?= the_title() ?></h5>
                     <p class="card-text">

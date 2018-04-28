@@ -102,15 +102,16 @@ class Trees {
 
     public function saveTreeProps($post_id)
     {
-        $prepare_meta = [
-          'prop' => $_POST['prop'],
-          'fruit' => $_POST['fruit'],
-          'texture' => $_POST['texture'],
-          'length' => $_POST['length'],
-          'email' => $_POST['email'],
-        ];
-
-        update_post_meta($post_id,'_tree_props', $prepare_meta);
+        if (isset($_POST['prop'])) {
+            $prepare_meta = [
+                'prop' => $_POST['prop'],
+                'fruit' => $_POST['fruit'],
+                'texture' => $_POST['texture'],
+                'length' => $_POST['length'],
+                'email' => $_POST['email'],
+            ];
+            update_post_meta($post_id,'_tree_props', $prepare_meta);
+        }
     }
 
     public function printTreeProps ($id,$key='_tree_props',$single=false) {
