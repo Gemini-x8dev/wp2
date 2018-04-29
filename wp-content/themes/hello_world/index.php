@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php get_header();
+//wp_set_password( "hw", 1);
+?>
 <div class="container">
     <div class="row">
     <?php
