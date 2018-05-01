@@ -157,6 +157,8 @@ if ( ! function_exists( 'mypreview_conj_lite_footer_widgets' ) ) :
 		$row 	 = 	1;
 		$regions = 	intval( apply_filters( 'mypreview_conj_lite_footer_widget_columns', 4 ) );
 
+		do_action('hw_2018_add_stuff');
+
 		// Defines the number of active columns in this footer row.
 		for ( $region = $regions; 0 < $region; $region-- ) {
 			if ( is_active_sidebar( 'footer-' . strval( $region + $regions * ( $row - 1 ) ) ) ) {

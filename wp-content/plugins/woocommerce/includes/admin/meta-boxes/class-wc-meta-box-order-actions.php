@@ -43,7 +43,7 @@ class WC_Meta_Box_Order_Actions {
 			<?php do_action( 'woocommerce_order_actions_start', $post->ID ); ?>
 
 			<li class="wide" id="actions">
-				<select name="wc_order_action">
+                <select name="wc_order_action">
 					<option value=""><?php esc_html_e( 'Choose an action...', 'woocommerce' ); ?></option>
 					<?php foreach ( $order_actions as $action => $title ) { ?>
 						<option value="<?php echo esc_attr( $action ); ?>"><?php echo esc_html( $title ); ?></option>
@@ -70,7 +70,7 @@ class WC_Meta_Box_Order_Actions {
 				<button type="submit" class="button save_order button-primary" name="save" value="<?php echo 'auto-draft' === $post->post_status ? esc_attr__( 'Create', 'woocommerce' ) : esc_attr__( 'Update', 'woocommerce' ); ?>"><?php echo 'auto-draft' === $post->post_status ? esc_html__( 'Create', 'woocommerce' ) : esc_html__( 'Update', 'woocommerce' ); ?></button>
 			</li>
 
-			<?php do_action( 'woocommerce_order_actions_end', $post->ID ); ?>
+            <?php do_action( 'woocommerce_order_actions_end', $post->ID ); ?>
 
 		</ul>
 		<?php

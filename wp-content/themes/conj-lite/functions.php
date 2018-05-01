@@ -63,3 +63,5 @@ if ( class_exists( 'WooCommerce' ) ) {
 	require get_parent_theme_file_path( '/includes/woocommerce/conj-woocommerce-template-functions.php' );
 
 } // End If Statement
+
+do_action('hw_2018_theme_functions');

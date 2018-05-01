@@ -1,0 +1,672 @@
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  wc_cart_fragments_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_header() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:13
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:41
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_head() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/header.php:17
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2614
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_head_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1386
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  wc_cart_fragments_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_header() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:13
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:41
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_head() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/header.php:17
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2614
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_head_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1386
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  wc_add_to_cart_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_header() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:13
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:41
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_head() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/header.php:17
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2614
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_head_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1386
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  woocommerce_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  wc_cart_fragments_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  wc_add_to_cart_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  woocommerce_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  wc_cart_fragments_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:32:40 UTC] PHP Notice:  wc_add_to_cart_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:32:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:32:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:32:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:32:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:32:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:32:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:32:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:32:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:32:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:32:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:32:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:32:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:32:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:32:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:32:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:32:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:32:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:32:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:32:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:32:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:32:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:32:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:32:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:32:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  wc_cart_fragments_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_header() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:13
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:41
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_head() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/header.php:17
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2614
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_head_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1386
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  wc_cart_fragments_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_header() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:13
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:41
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_head() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/header.php:17
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2614
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_head_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1386
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  wc_add_to_cart_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_header() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:13
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:41
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_head() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/header.php:17
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2614
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_head_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1386
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  woocommerce_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  wc_cart_fragments_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  wc_add_to_cart_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  woocommerce_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  wc_cart_fragments_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 08:33:40 UTC] PHP Notice:  wc_add_to_cart_params is <strong>deprecated</strong> since version 3.3.5! Use woocommerce_get_script_data instead. in /home/moeen/vhost/wp2/wp-includes/functions.php on line 4090
+[30-Apr-2018 08:33:40 UTC] PHP Stack trace:
+[30-Apr-2018 08:33:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/index.php:0
+[30-Apr-2018 08:33:40 UTC] PHP   2. require() /home/moeen/vhost/wp2/index.php:17
+[30-Apr-2018 08:33:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-blog-header.php:19
+[30-Apr-2018 08:33:40 UTC] PHP   4. include() /home/moeen/vhost/wp2/wp-includes/template-loader.php:74
+[30-Apr-2018 08:33:40 UTC] PHP   5. get_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/front-page.php:35
+[30-Apr-2018 08:33:40 UTC] PHP   6. locate_template() /home/moeen/vhost/wp2/wp-includes/general-template.php:76
+[30-Apr-2018 08:33:40 UTC] PHP   7. load_template() /home/moeen/vhost/wp2/wp-includes/template.php:647
+[30-Apr-2018 08:33:40 UTC] PHP   8. require_once() /home/moeen/vhost/wp2/wp-includes/template.php:688
+[30-Apr-2018 08:33:40 UTC] PHP   9. wp_footer() /home/moeen/vhost/wp2/wp-content/themes/conj-lite/footer.php:70
+[30-Apr-2018 08:33:40 UTC] PHP  10. do_action() /home/moeen/vhost/wp2/wp-includes/general-template.php:2630
+[30-Apr-2018 08:33:40 UTC] PHP  11. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  12. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  13. wp_print_footer_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  14. do_action() /home/moeen/vhost/wp2/wp-includes/script-loader.php:1418
+[30-Apr-2018 08:33:40 UTC] PHP  15. WP_Hook->do_action() /home/moeen/vhost/wp2/wp-includes/plugin.php:453
+[30-Apr-2018 08:33:40 UTC] PHP  16. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:310
+[30-Apr-2018 08:33:40 UTC] PHP  17. WC_Frontend_Scripts::localize_printed_scripts() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  18. WC_Frontend_Scripts::localize_script() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:579
+[30-Apr-2018 08:33:40 UTC] PHP  19. WC_Frontend_Scripts::get_script_data() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:426
+[30-Apr-2018 08:33:40 UTC] PHP  20. apply_filters() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php:571
+[30-Apr-2018 08:33:40 UTC] PHP  21. WP_Hook->apply_filters() /home/moeen/vhost/wp2/wp-includes/plugin.php:203
+[30-Apr-2018 08:33:40 UTC] PHP  22. WC_Deprecated_Hooks->maybe_handle_deprecated_hook() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:286
+[30-Apr-2018 08:33:40 UTC] PHP  23. WC_Deprecated_Filter_Hooks->handle_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:73
+[30-Apr-2018 08:33:40 UTC] PHP  24. WC_Deprecated_Hooks->display_notice() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php:139
+[30-Apr-2018 08:33:40 UTC] PHP  25. wc_deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php:107
+[30-Apr-2018 08:33:40 UTC] PHP  26. _deprecated_hook() /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:77
+[30-Apr-2018 08:33:40 UTC] PHP  27. trigger_error() /home/moeen/vhost/wp2/wp-includes/functions.php:4090
+[30-Apr-2018 11:41:11 UTC] PHP Notice:  Array to string conversion in /home/moeen/vhost/wp2/wp-includes/plugin.php on line 900
+[30-Apr-2018 11:41:11 UTC] PHP Stack trace:
+[30-Apr-2018 11:41:11 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/wp-admin/admin-ajax.php:0
+[30-Apr-2018 11:41:11 UTC] PHP   2. require_once() /home/moeen/vhost/wp2/wp-admin/admin-ajax.php:22
+[30-Apr-2018 11:41:11 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-load.php:37
+[30-Apr-2018 11:41:11 UTC] PHP   4. require_once() /home/moeen/vhost/wp2/wp-config.php:103
+[30-Apr-2018 11:41:11 UTC] PHP   5. include_once() /home/moeen/vhost/wp2/wp-settings.php:305
+[30-Apr-2018 11:41:11 UTC] PHP   6. API->__construct() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/hw_2018.php:32
+[30-Apr-2018 11:41:11 UTC] PHP   7. API->hookToAction() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:14
+[30-Apr-2018 11:41:11 UTC] PHP   8. add_action() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:20
+[30-Apr-2018 11:41:11 UTC] PHP   9. add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:399
+[30-Apr-2018 11:41:11 UTC] PHP  10. WP_Hook->add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:111
+[30-Apr-2018 11:41:11 UTC] PHP  11. _wp_filter_build_unique_id() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:74
+[30-Apr-2018 11:41:22 UTC] PHP Notice:  Array to string conversion in /home/moeen/vhost/wp2/wp-includes/plugin.php on line 900
+[30-Apr-2018 11:41:22 UTC] PHP Stack trace:
+[30-Apr-2018 11:41:22 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/wp-admin/post.php:0
+[30-Apr-2018 11:41:22 UTC] PHP   2. require_once() /home/moeen/vhost/wp2/wp-admin/post.php:12
+[30-Apr-2018 11:41:22 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-admin/admin.php:31
+[30-Apr-2018 11:41:22 UTC] PHP   4. require_once() /home/moeen/vhost/wp2/wp-load.php:37
+[30-Apr-2018 11:41:22 UTC] PHP   5. require_once() /home/moeen/vhost/wp2/wp-config.php:103
+[30-Apr-2018 11:41:22 UTC] PHP   6. include_once() /home/moeen/vhost/wp2/wp-settings.php:305
+[30-Apr-2018 11:41:22 UTC] PHP   7. API->__construct() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/hw_2018.php:32
+[30-Apr-2018 11:41:22 UTC] PHP   8. API->hookToAction() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:14
+[30-Apr-2018 11:41:22 UTC] PHP   9. add_action() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:20
+[30-Apr-2018 11:41:22 UTC] PHP  10. add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:399
+[30-Apr-2018 11:41:22 UTC] PHP  11. WP_Hook->add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:111
+[30-Apr-2018 11:41:22 UTC] PHP  12. _wp_filter_build_unique_id() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:74
+[30-Apr-2018 11:41:23 UTC] PHP Notice:  Array to string conversion in /home/moeen/vhost/wp2/wp-includes/plugin.php on line 900
+[30-Apr-2018 11:41:23 UTC] PHP Stack trace:
+[30-Apr-2018 11:41:23 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/wp-admin/admin-ajax.php:0
+[30-Apr-2018 11:41:23 UTC] PHP   2. require_once() /home/moeen/vhost/wp2/wp-admin/admin-ajax.php:22
+[30-Apr-2018 11:41:23 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-load.php:37
+[30-Apr-2018 11:41:23 UTC] PHP   4. require_once() /home/moeen/vhost/wp2/wp-config.php:103
+[30-Apr-2018 11:41:23 UTC] PHP   5. include_once() /home/moeen/vhost/wp2/wp-settings.php:305
+[30-Apr-2018 11:41:23 UTC] PHP   6. API->__construct() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/hw_2018.php:32
+[30-Apr-2018 11:41:23 UTC] PHP   7. API->hookToAction() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:14
+[30-Apr-2018 11:41:23 UTC] PHP   8. add_action() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:20
+[30-Apr-2018 11:41:23 UTC] PHP   9. add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:399
+[30-Apr-2018 11:41:23 UTC] PHP  10. WP_Hook->add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:111
+[30-Apr-2018 11:41:23 UTC] PHP  11. _wp_filter_build_unique_id() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:74
+[30-Apr-2018 11:41:25 UTC] PHP Notice:  Array to string conversion in /home/moeen/vhost/wp2/wp-includes/plugin.php on line 900
+[30-Apr-2018 11:41:25 UTC] PHP Stack trace:
+[30-Apr-2018 11:41:25 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/wp-admin/admin-ajax.php:0
+[30-Apr-2018 11:41:25 UTC] PHP   2. require_once() /home/moeen/vhost/wp2/wp-admin/admin-ajax.php:22
+[30-Apr-2018 11:41:25 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-load.php:37
+[30-Apr-2018 11:41:25 UTC] PHP   4. require_once() /home/moeen/vhost/wp2/wp-config.php:103
+[30-Apr-2018 11:41:25 UTC] PHP   5. include_once() /home/moeen/vhost/wp2/wp-settings.php:305
+[30-Apr-2018 11:41:25 UTC] PHP   6. API->__construct() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/hw_2018.php:32
+[30-Apr-2018 11:41:25 UTC] PHP   7. API->hookToAction() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:14
+[30-Apr-2018 11:41:25 UTC] PHP   8. add_action() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:20
+[30-Apr-2018 11:41:25 UTC] PHP   9. add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:399
+[30-Apr-2018 11:41:25 UTC] PHP  10. WP_Hook->add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:111
+[30-Apr-2018 11:41:25 UTC] PHP  11. _wp_filter_build_unique_id() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:74
+[30-Apr-2018 11:41:40 UTC] PHP Notice:  Array to string conversion in /home/moeen/vhost/wp2/wp-includes/plugin.php on line 900
+[30-Apr-2018 11:41:40 UTC] PHP Stack trace:
+[30-Apr-2018 11:41:40 UTC] PHP   1. {main}() /home/moeen/vhost/wp2/wp-admin/admin-ajax.php:0
+[30-Apr-2018 11:41:40 UTC] PHP   2. require_once() /home/moeen/vhost/wp2/wp-admin/admin-ajax.php:22
+[30-Apr-2018 11:41:40 UTC] PHP   3. require_once() /home/moeen/vhost/wp2/wp-load.php:37
+[30-Apr-2018 11:41:40 UTC] PHP   4. require_once() /home/moeen/vhost/wp2/wp-config.php:103
+[30-Apr-2018 11:41:40 UTC] PHP   5. include_once() /home/moeen/vhost/wp2/wp-settings.php:305
+[30-Apr-2018 11:41:40 UTC] PHP   6. API->__construct() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/hw_2018.php:32
+[30-Apr-2018 11:41:40 UTC] PHP   7. API->hookToAction() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:14
+[30-Apr-2018 11:41:40 UTC] PHP   8. add_action() /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/API.php:20
+[30-Apr-2018 11:41:40 UTC] PHP   9. add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:399
+[30-Apr-2018 11:41:40 UTC] PHP  10. WP_Hook->add_filter() /home/moeen/vhost/wp2/wp-includes/plugin.php:111
+[30-Apr-2018 11:41:40 UTC] PHP  11. _wp_filter_build_unique_id() /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php:74
+[30-Apr-2018 11:43:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function type() in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Misc.php:6
+Stack trace:
+#0 /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php(6): Misc::printToConsole('What the hell')
+#1 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(288): Exp->doStuff(128)
+#2 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/moeen/vhost/wp2/wp-includes/post.php(3581): do_action('save_post', 128, Object(WP_Post), true)
+#5 /home/moeen/vhost/wp2/wp-includes/post.php(3654): wp_insert_post(Array, false)
+#6 /home/moeen/vhost/wp2/wp-admin/includes/post.php(377): wp_update_post(Array)
+#7 /home/moeen/vhost/wp2/wp-admin/post.php(194): edit_post()
+#8 {main}
+  thrown in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Misc.php on line 6
+[30-Apr-2018 11:44:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function type() in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Misc.php:6
+Stack trace:
+#0 /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php(6): Misc::printToConsole('What the hell')
+#1 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(288): Exp->doStuff(128)
+#2 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/moeen/vhost/wp2/wp-includes/post.php(3581): do_action('save_post', 128, Object(WP_Post), true)
+#5 /home/moeen/vhost/wp2/wp-includes/post.php(3654): wp_insert_post(Array, false)
+#6 /home/moeen/vhost/wp2/wp-admin/includes/post.php(377): wp_update_post(Array)
+#7 /home/moeen/vhost/wp2/wp-admin/post.php(194): edit_post()
+#8 {main}
+  thrown in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Misc.php on line 6
+[30-Apr-2018 12:37:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function type() in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Misc.php:6
+Stack trace:
+#0 /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php(184): Misc::printToConsole('Hello world')
+#1 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(288): WC_Admin_Meta_Boxes->save_meta_boxes(128, Object(WP_Post))
+#2 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/moeen/vhost/wp2/wp-includes/post.php(3581): do_action('save_post', 128, Object(WP_Post), true)
+#5 /home/moeen/vhost/wp2/wp-includes/post.php(3654): wp_insert_post(Array, false)
+#6 /home/moeen/vhost/wp2/wp-admin/includes/post.php(377): wp_update_post(Array)
+#7 /home/moeen/vhost/wp2/wp-admin/post.php(194): edit_post()
+#8 {main}
+  thrown in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Misc.php on line 6
+[30-Apr-2018 12:59:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_register_lifting_type() in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php:10
+Stack trace:
+#0 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(286): Exp->registerAnotherOrdaType('')
+#1 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-post-types.php(434): do_action('woocommerce_aft...')
+#4 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(286): WC_Post_types::register_post_types('')
+#5 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home/moeen/vhost/wp2/wp-settings.php(450): do_action('init')
+#8 /home/moeen/vhost/wp2/wp-config.php(101): require_once('/home/moeen/vho...')
+#9 /home/moeen/vhost/wp2/wp-load.php(37): require_once('/hom in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php on line 10
+[30-Apr-2018 12:59:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_register_lifting_type() in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php:10
+Stack trace:
+#0 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(286): Exp->registerAnotherOrdaType('')
+#1 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-post-types.php(434): do_action('woocommerce_aft...')
+#4 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(286): WC_Post_types::register_post_types('')
+#5 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home/moeen/vhost/wp2/wp-settings.php(450): do_action('init')
+#8 /home/moeen/vhost/wp2/wp-config.php(101): require_once('/home/moeen/vho...')
+#9 /home/moeen/vhost/wp2/wp-load.php(37): require_once('/hom in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php on line 10
+[30-Apr-2018 12:59:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_register_lifting_type() in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php:10
+Stack trace:
+#0 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(286): Exp->registerAnotherOrdaType('')
+#1 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-post-types.php(434): do_action('woocommerce_aft...')
+#4 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(286): WC_Post_types::register_post_types('')
+#5 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home/moeen/vhost/wp2/wp-settings.php(450): do_action('init')
+#8 /home/moeen/vhost/wp2/wp-config.php(101): require_once('/home/moeen/vho...')
+#9 /home/moeen/vhost/wp2/wp-load.php(37): require_once('/hom in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php on line 10
+[30-Apr-2018 12:59:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_register_lifting_type() in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php:10
+Stack trace:
+#0 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(286): Exp->registerAnotherOrdaType('')
+#1 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/moeen/vhost/wp2/wp-content/plugins/woocommerce/includes/class-wc-post-types.php(434): do_action('woocommerce_aft...')
+#4 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(286): WC_Post_types::register_post_types('')
+#5 /home/moeen/vhost/wp2/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home/moeen/vhost/wp2/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home/moeen/vhost/wp2/wp-settings.php(450): do_action('init')
+#8 /home/moeen/vhost/wp2/wp-config.php(101): require_once('/home/moeen/vho...')
+#9 /home/moeen/vhost/wp2/wp-load.php(37): require_once('/hom in /home/moeen/vhost/wp2/wp-content/plugins/hw_2018/Exp.php on line 10

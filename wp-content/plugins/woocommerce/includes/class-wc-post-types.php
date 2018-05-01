@@ -339,7 +339,7 @@ class WC_Post_types {
 							'add_new'               => __( 'Add order', 'woocommerce' ),
 							'add_new_item'          => __( 'Add new order', 'woocommerce' ),
 							'edit'                  => __( 'Edit', 'woocommerce' ),
-							'edit_item'             => __( 'Edit order', 'woocommerce' ),
+							'edit_item'             => __( 'Edit the #$%#@# oda', 'woocommerce' ),
 							'new_item'              => __( 'New order', 'woocommerce' ),
 							'view_item'             => __( 'View order', 'woocommerce' ),
 							'search_items'          => __( 'Search orders', 'woocommerce' ),
