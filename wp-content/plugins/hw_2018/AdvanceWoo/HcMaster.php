@@ -7,21 +7,18 @@ Autoload::classes(dirname(__FILE__) . "/Components/Experiments/","",false);
 
 class HcMaster {
 
-    private $action;
-    private $filter;
-    private $shortcode;
+    private $wp;
 
     public function __construct()
     {
-        $this->action = new Action();
-        $this->filter = new Filter();
+        $this->wp = new WordpressApi();
         $this->initActions();
         $this->initFilters();
         $this->initShortcodes();
     }
 
     public function initActions () {
-        $this->action->hook('hc_everything_is_ready',$this->getAction(Welcome::class,'welcomeMessage'));
+        $this->wp->actionHook('hc_everything_is_ready',$this->getAction(Welcome::class,'welcomeMessage'));
     }
 
     public function initFilters () {
@@ -29,7 +26,7 @@ class HcMaster {
     }
 
     public function initShortcodes () {
-
+        $this->wp->addShortcode('hc_home_page',$this->getAction(HomePage::class,'get'));
     }
 
     public function getAction ($object, $method) {

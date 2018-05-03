@@ -1,5 +1,8 @@
+<?php get_header(); ?>
+
 <?php
+    do_action('hc_load_home');
+    do_action('hc_everything_is_ready');
+?>
 
-get_header();
-
-get_footer();
+<?php get_footer(); ?>
