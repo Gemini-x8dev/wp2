@@ -6,9 +6,7 @@ Author: HW
 version: 0.0.1
 */
 
-include_once dirname(__FILE__) . "/Misc.php";
-include_once dirname(__FILE__) . "/API.php";
-include_once dirname(__FILE__) . "/Exp.php";
+include_once dirname(__FILE__) . "/AdvanceWoo/HcMaster.php";
 
 class PluginHooks {
 
@@ -29,4 +27,4 @@ register_activation_hook(__FILE__,['PluginHooks','plug']);
 register_deactivation_hook(__FILE__,['PluginHooks','unplug']);
 register_uninstall_hook(__FILE__,['PluginHooks','flush']);
 
-new API();
+new HcMaster();
