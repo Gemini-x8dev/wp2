@@ -3,6 +3,7 @@
 include_once dirname(__FILE__) . "/Autoload.php";
 
 Autoload::classes(dirname(__FILE__) . "/Components/","",false);
+Autoload::classes(dirname(__FILE__) . "/Models/","",false);
 
 class HcMaster {
 
@@ -14,6 +15,15 @@ class HcMaster {
         $this->initActions();
         $this->initFilters();
         $this->initShortcodes();
+        $this->enqueueScripts();
+
+        Ajax::frontend([
+            'handle' => 'hc_ajax_call',
+            'object_name' => 'hw2018_welcome',
+            'data' => array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'password' => 1234 ),
+            'action' => 'change_password',
+            'callback' => [Welcome::class,'changePassword']
+        ]);
     }
 
     public function initActions () {
@@ -35,6 +45,15 @@ class HcMaster {
             $object,
             $method
         ];
+    }
+
+    public function enqueueScripts () {
+        add_action( 'wp_enqueue_scripts', [self::class,'assets'] );
+    }
+
+    function assets() {
+        wp_enqueue_script('lol', Plugin::assetsUrl() . "/js/ajax.js", ['jquery']);
+//        wp_enqueue_style( 'style-name', get_stylesheet_uri() );
     }
 
 }
