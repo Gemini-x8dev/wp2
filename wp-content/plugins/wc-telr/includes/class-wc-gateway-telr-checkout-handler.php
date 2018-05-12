@@ -29,7 +29,7 @@ class WC_Gateway_Telr_Checkout_Handler
     {
         $order    = new WC_Order($order_id);
         $result   = $this->generate_request($order);
-        
+
         $telr_ref = trim($result['order']['ref']);
         $telr_url = trim($result['order']['url']);
 

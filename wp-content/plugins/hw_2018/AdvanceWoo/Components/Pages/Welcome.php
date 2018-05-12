@@ -58,6 +58,7 @@ class Welcome {
 
         <div id="hw2018-change-password"></div>
         <?php
+        echo do_shortcode('[hc2018_playful_content]');
     }
 
     public static function changePassword() {
@@ -74,7 +75,7 @@ class Welcome {
         $response = [
           'password_changed' => $password_changed,
           'html' => '<div class="uk-card-primary uk-card-body uk-margin-bottom" id="hw2018-change-password">
-                        <h3 class="uk-card-title">Looking to change your password eh? '. $faiz->data->user_nicename .'</h3>
+                        <h3 class="uk-card-title">Change your password '. $faiz->data->user_nicename .'</h3>
                         <fieldset class="uk-fieldset uk-form-stacked" style="background-color: inherit !important;">
                             <div class="uk-margin">
                                 <label class="uk-form-label" for="form-stacked-text">Password</label>
@@ -110,6 +111,15 @@ class Welcome {
     public static function getReview () {
         echo json_encode(Reviews::all());
         wp_die();
+    }
+
+    public static function hc2018PlayfulContent () {
+        ?>
+        <div class="uk-placeholder uk-text-center">
+            This is an example of content that can be rendered by shortcodes. Shortcode is a billiant way of injecting your features into templates.
+            One possible use of this is to add a user dropdown in menu. Lets see what we can do about that.
+        </div>
+        <?php
     }
 
 }

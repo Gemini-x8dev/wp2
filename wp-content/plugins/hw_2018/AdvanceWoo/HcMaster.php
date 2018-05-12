@@ -4,6 +4,7 @@ include_once dirname(__FILE__) . "/Autoload.php";
 
 Autoload::classes(dirname(__FILE__) . "/Components/","",false);
 Autoload::classes(dirname(__FILE__) . "/Models/","",false);
+Autoload::classes(dirname(__FILE__) . "/Templates/","",false);
 
 class HcMaster {
 
@@ -18,10 +19,12 @@ class HcMaster {
     public function initActions () {
         add_action('widgets_init',[Widget::class,'register']);
         add_action('wp_enqueue_scripts',[self::class,'scripts']);
+        add_action( 'storefront_header', [User::class,'dropDownWidget'], 50 );
     }
 
     public function initFilters () {
         add_filter( 'woocommerce_checkout_fields' , [WcCheckout::class,'customizeFields'] );
+        add_filter( 'woocommerce_product_tabs', [Products::class,'recentReviews'], 98 );
     }
 
     public function initAjax () {
@@ -34,6 +37,7 @@ class HcMaster {
         add_shortcode('hc_home_page',[HomePage::class,'get']);
         add_shortcode('hc_products_of_the_month',[Frontend::class,'hoodies']);
         add_shortcode('hc_woo_details',[Welcome::class,'welcomeMessage']);
+        add_shortcode('hc2018_playful_content',[Welcome::class,'hc2018PlayfulContent']);
     }
 
     function scripts() {

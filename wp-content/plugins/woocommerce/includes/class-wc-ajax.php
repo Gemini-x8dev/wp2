@@ -415,7 +415,7 @@ class WC_AJAX {
 	 * Process ajax checkout form.
 	 */
 	public static function checkout() {
-		wc_maybe_define_constant( 'WOOCOMMERCE_CHECKOUT', true );
+        wc_maybe_define_constant( 'WOOCOMMERCE_CHECKOUT', true );
 		WC()->checkout()->process_checkout();
 		wp_die( 0 );
 	}

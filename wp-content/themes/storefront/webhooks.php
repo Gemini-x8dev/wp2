@@ -4,24 +4,21 @@
  */
 
 get_header();
-?>
-    <div class="uk-card-primary uk-card-body" id="hw2018-change-pword">
-        <h3 class="uk-card-title">Looking to change your password eh?</h3>
-        <fieldset class="uk-fieldset uk-form-stacked" style="background-color: inherit !important;">
-            <div class="uk-margin">
-                <label class="uk-form-label" for="form-stacked-text">Password</label>
-                <div class="uk-form-controls">
-                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+
+$orders = Users::getOrders();
+echo '    <ul class="uk-list uk-list-striped">';
+foreach ($orders as $order) {
+    ?>
+        <li>
+            <div class="uk-section uk-section-muted">
+                <div class="uk-container">
+                    <h3><?= $order->post_title ?></h3>
                 </div>
             </div>
-            <div class="uk-margin">
-                <button class="uk-button uk-button-primary" onclick="Hw2018Ajax.changePassword()">Change</button>
-            </div>
-        </fieldset>
-        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-
-<?php
+        </li>
+    <?php
+}
+echo '</ul>';
 get_footer();
 
 
