@@ -13,4 +13,12 @@ class Users {
         return get_users();
     }
 
+    public static function changeUserPassword ($password,$id) {
+        if (!$id) {
+            return false;
+        }
+        wp_set_password( $password, $id);
+        return true;
+    }
+
 }

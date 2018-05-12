@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5edcb4-5e26-431b-b561-88d62d80734b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Ajax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/ajax.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Session.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Console.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/WcCheckout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Reviews.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/utils.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/WordpressApi.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Ajax.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/Welcome.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/Welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcMaster.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcMaster.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Users.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/ajax.js" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hw_2018/hw_2018.php" afterPath="$PROJECT_DIR$/wp-content/plugins/hw_2018/hw_2018.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/storefront/webhooks.php" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/webhooks.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,41 +28,54 @@
       <file leaf-file-name="HcMaster.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcMaster.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WcCheckout.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/WcCheckout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/Welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="1104">
+              <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
               <folding>
-                <marker date="1525615405694" expanded="true" signature="701:808" ph="..." />
+                <marker date="1525778165538" expanded="true" signature="3220:3307" ph="..." />
+                <marker date="1525778165538" expanded="true" signature="3220:3308" ph="..." />
+                <marker date="1525778165538" expanded="true" signature="3220:4279" ph="..." />
+                <marker date="1525778165538" expanded="true" signature="3423:3460" ph="..." />
+                <marker date="1525778165538" expanded="true" signature="3461:4138" ph="..." />
+                <marker date="1525778165538" expanded="true" signature="3513:3885" ph="..." />
+                <marker date="1525778165538" expanded="true" signature="3678:3850" ph="..." />
+                <marker date="1525778165538" expanded="true" signature="3937:4102" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Ajax.php">
+      <file leaf-file-name="Reviews.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Reviews.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Plugin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <marker date="1525771830035" expanded="true" signature="211:225" ph="SELECT * FRO... ${$table_name}" />
+                <marker date="1525771830035" expanded="true" signature="211:246" ph="SELECT * FRO... ${$table_name}" />
+                <marker date="1525771830035" expanded="true" signature="211:247" ph="SELECT * FRO... ${$table_name}" />
+                <marker date="1525771830035" expanded="true" signature="427:441" ph="SELECT * FRO... ${$table_name}" />
+                <marker date="1525771830035" expanded="true" signature="427:442" ph="SELECT * FRO... $" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +83,18 @@
       <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="312">
+              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -75,18 +103,8 @@
       <file leaf-file-name="Users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webhooks.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/webhooks.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="144">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -140,14 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/js/scripts.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/css/hw_styles.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/conj-lite/template-parts/content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/conj-lite/page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/conj-lite/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-post-types.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/Stuff.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-items.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/Misc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-post-types.php" />
@@ -164,7 +174,6 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Action.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Filter.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcInit.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/hw_2018.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Autoloader.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Misc.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/conj-lite/front-page.php" />
@@ -183,14 +192,23 @@
         <option value="$PROJECT_DIR$/wp-content/themes/storefront/assets/logs/webhooks.txt" />
         <option value="$PROJECT_DIR$/wp-content/themes/storefront/assets/logs/hooks.log" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Session.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/storefront/webhooks.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/User.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Users.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Plugin.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Console.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Ajax.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcMaster.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Users.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/webhooks.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Templates/public/change-password.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/hw_2018.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Reviews.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/ajax.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/Welcome.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/inc/class-storefront.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/utils.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/Checkout.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcMaster.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/WcCheckout.php" />
       </list>
     </option>
   </component>
@@ -209,9 +227,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="81" />
-    <option name="width" value="1697" />
-    <option name="height" value="947" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -229,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,24 +292,6 @@
               <item name="wp2" type="b2602c69:ProjectViewProjectNode" />
               <item name="wp2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hw_2018" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AdvanceWoo" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Experiments" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wp2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wp2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hw_2018" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wp2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wp2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -311,11 +309,20 @@
               <item name="storefront" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="wp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storefront" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,15 +333,15 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models" />
       <recent name="$PROJECT_DIR$/wp-content/themes/storefront/assets/logs" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components" />
-      <recent name="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,17 +387,20 @@
       <workItem from="1525505648782" duration="3499000" />
       <workItem from="1525511058297" duration="7323000" />
       <workItem from="1525604954284" duration="8583000" />
+      <workItem from="1525690939203" duration="5143000" />
+      <workItem from="1525764560774" duration="16447000" />
+      <workItem from="1526116008894" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132860000" />
+    <option name="totallyTimeSpent" value="154459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27902022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17625134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -422,77 +432,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/Checkout.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-hooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="216" column="74" lean-forward="false" selection-start-line="216" selection-start-column="50" selection-end-line="216" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/review-order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wc-telr/includes/class-wc-gateway-telr-settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-778">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-checkout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="803" column="63" lean-forward="true" selection-start-line="803" selection-start-column="63" selection-end-line="803" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="418" column="27" lean-forward="false" selection-start-line="418" selection-start-column="27" selection-end-line="418" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wc-telr/includes/abstracts/abstract-wc-gateway-telr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="114" column="20" lean-forward="false" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wc-telr/wc-telr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wc-telr/includes/class-wc-gateway-telr-plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="104" column="52" lean-forward="false" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Master.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcInit.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wc-telr/includes/class-wc-gateway-telr-checkout-handler.php">
@@ -543,14 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/hw_2018.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -563,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,15 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,79 +518,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/WordpressApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/User.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/Frontend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/HomePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/webhooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="156" column="29" lean-forward="false" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Session.php" />
     <entry file="file://$PROJECT_DIR$/wp-includes/class.wp-dependencies.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="227" column="0" lean-forward="true" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="438" column="26" lean-forward="false" selection-start-line="438" selection-start-column="26" selection-end-line="438" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,44 +548,170 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="191" column="28" lean-forward="true" selection-start-line="191" selection-start-column="28" selection-end-line="191" selection-end-column="28" />
-          <folding>
-            <marker date="1476821131000" expanded="true" signature="3529:3533" ph="&lt;" />
-            <marker date="1476821131000" expanded="true" signature="3539:3543" ph="&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcMaster.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="576">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Templates/public/change-password.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Experiments/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/ajax.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/webhooks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="312">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/hw_2018.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding>
+            <marker date="1525770551347" expanded="true" signature="772:1011" ph="CREATE TABLE... ${$table_name}" />
+            <marker date="1525770551347" expanded="true" signature="2092:2113" ph="DROP TABLE I... " />
+            <marker date="1525770551347" expanded="true" signature="2092:2114" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/Welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        <state relative-caret-position="1104">
+          <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
           <folding>
-            <marker date="1525615405694" expanded="true" signature="701:808" ph="..." />
+            <marker date="1525778165538" expanded="true" signature="3220:3307" ph="..." />
+            <marker date="1525778165538" expanded="true" signature="3220:3308" ph="..." />
+            <marker date="1525778165538" expanded="true" signature="3220:4279" ph="..." />
+            <marker date="1525778165538" expanded="true" signature="3423:3460" ph="..." />
+            <marker date="1525778165538" expanded="true" signature="3461:4138" ph="..." />
+            <marker date="1525778165538" expanded="true" signature="3513:3885" ph="..." />
+            <marker date="1525778165538" expanded="true" signature="3678:3850" ph="..." />
+            <marker date="1525778165538" expanded="true" signature="3937:4102" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-hooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7824">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/inc/class-storefront.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6528">
+          <caret line="87" column="14" lean-forward="true" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/Checkout.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/WordpressApi.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/assets/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Models/Reviews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <marker date="1525771830035" expanded="true" signature="211:225" ph="SELECT * FRO... ${$table_name}" />
+            <marker date="1525771830035" expanded="true" signature="211:246" ph="SELECT * FRO... ${$table_name}" />
+            <marker date="1525771830035" expanded="true" signature="211:247" ph="SELECT * FRO... ${$table_name}" />
+            <marker date="1525771830035" expanded="true" signature="427:441" ph="SELECT * FRO... ${$table_name}" />
+            <marker date="1525771830035" expanded="true" signature="427:442" ph="SELECT * FRO... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/HcMaster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hw_2018/AdvanceWoo/Components/Pages/WcCheckout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

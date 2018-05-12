@@ -2,23 +2,24 @@
 
 class Ajax {
 
-    public static function backend ($config) {
-        self::jsObject($config);
-        add_action( 'wp_ajax_' . $config['action'], $config['callback'] );
+    public static function add ($interface = "public", $action, $callback) {
+        if ($interface == "public") {
+            self::frontend($action,$callback);
+        }elseif($interface == "admin"){
+            self::backend($action,$callback);
+        }else{
+            Console::error("The given interface could not be found.");
+        }
+        return 0;
     }
 
-    public static function frontend ($config) {
-        self::jsObject($config);
-        add_action( 'wp_ajax_' . $config['action'], $config['callback'] );
-        add_action( 'wp_ajax_nopriv_' . $config['action'], $config['callback'] );
+    public static function backend ($action,$callback) {
+        add_action( 'wp_ajax_' . $action, $callback );
     }
 
-    public static function jsObject ($config) {
-        ?>
-        <script>
-            var <?= $config['object_name'] ?> = <?= json_encode($config['data']) ?>;
-        </script>
-        <?php
+    public static function frontend ($action,$callback) {
+        add_action( 'wp_ajax_' . $action, $callback );
+        add_action( 'wp_ajax_nopriv_' . $action, $callback );
     }
 
 }

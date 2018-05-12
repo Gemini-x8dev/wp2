@@ -7,37 +7,41 @@ Autoload::classes(dirname(__FILE__) . "/Models/","",false);
 
 class HcMaster {
 
-    private $wp;
-
     public function __construct()
     {
-        $this->wp = new WordpressApi();
         $this->initActions();
         $this->initFilters();
         $this->initShortcodes();
-        $this->enqueueScripts();
-
-        Ajax::frontend([
-            'handle' => 'hc_ajax_call',
-            'object_name' => 'hw2018_welcome',
-            'data' => array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'password' => 1234 ),
-            'action' => 'change_password',
-            'callback' => [Welcome::class,'changePassword']
-        ]);
+        $this->initAjax();
     }
 
     public function initActions () {
-        $this->wp->actionHook('widgets_init',$this->getAction(Widget::class,'register'));
+        add_action('widgets_init',[Widget::class,'register']);
+        add_action('wp_enqueue_scripts',[self::class,'scripts']);
     }
 
     public function initFilters () {
+        add_filter( 'woocommerce_checkout_fields' , [WcCheckout::class,'customizeFields'] );
+    }
 
+    public function initAjax () {
+        Ajax::add('public','change_password',[Welcome::class,'changePassword']);
+        Ajax::add('public','hw2018_store_review',[Welcome::class,'storeReview']);
+        Ajax::add('public','hw2018_store_reviews_get',[Welcome::class,'getReview']);
     }
 
     public function initShortcodes () {
-        $this->wp->addShortcode('hc_home_page',$this->getAction(HomePage::class,'get'));
-        $this->wp->addShortcode('hc_products_of_the_month',$this->getAction(Frontend::class,'hoodies'));
-        $this->wp->addShortcode('hc_woo_details',$this->getAction(Welcome::class,'welcomeMessage'));
+        add_shortcode('hc_home_page',[HomePage::class,'get']);
+        add_shortcode('hc_products_of_the_month',[Frontend::class,'hoodies']);
+        add_shortcode('hc_woo_details',[Welcome::class,'welcomeMessage']);
+    }
+
+    function scripts() {
+        wp_enqueue_script('hc2018_ajax',Plugin::assetsUrl() . "/js/ajax.js" ,['jquery'],"0.01",true);
+        wp_enqueue_script('hc2018_utils',Plugin::assetsUrl() . "/js/utils.js" ,['jquery'],"0.01",true);
+        wp_enqueue_script('hc2018_uikit_js',Plugin::assetsUrl() . "/js/uikit.min.js" ,['jquery'],"0.01",true);
+        wp_enqueue_script('hc2018_uikit_icons_js',Plugin::assetsUrl() . "/js/uikit-icons.min.js" ,['jquery'],"0.01",true);
+        wp_enqueue_style('hc2018_uikit_css',Plugin::assetsUrl() . "/css/uikit.min.css");
     }
 
     public function getAction ($object, $method) {
@@ -45,15 +49,6 @@ class HcMaster {
             $object,
             $method
         ];
-    }
-
-    public function enqueueScripts () {
-        add_action( 'wp_enqueue_scripts', [self::class,'assets'] );
-    }
-
-    function assets() {
-        wp_enqueue_script('lol', Plugin::assetsUrl() . "/js/ajax.js", ['jquery']);
-//        wp_enqueue_style( 'style-name', get_stylesheet_uri() );
     }
 
 }
